@@ -1,0 +1,26 @@
+header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 60px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.active {
+    border-bottom: 5px solid $brand_primary_color;
+}
+ul {
+    display: flex;
+}
+a {
+    color: #303030;
+    font-size: 12px;
+    line-height: 80px;
+}
+li {
+    margin: 0 8px;
+}

@@ -5,11 +5,12 @@
         <span class="current_series">CURRENT SERIES</span>
         <div class="container">
 
-            <!-- Single Card -->
+            @foreach ($comics_array as $comic)
             <div class="card">
-                <img src="" alt="">
-                <h3></h3>
+                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                <h3>{{ $comic['series'] }}</h3>
             </div>
+            @endforeach
 
         </div>
         <div class="load_more">

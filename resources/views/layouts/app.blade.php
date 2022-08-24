@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <!-- Header goes here -->
+    @include('partials.header')
 
     <!-- Jumbotron goes here -->
 

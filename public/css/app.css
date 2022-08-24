@@ -51,7 +51,7 @@ li {
 }
 
 .jumbotron {
-  background-image: url("../assets/img/jumbotron.jpg");
+  background-image: url("../img/jumbotron.jpg");
   height: 300px;
   background-position: top;
 }

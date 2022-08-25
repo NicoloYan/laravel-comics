@@ -60,6 +60,12 @@ li {
   background-color: black;
   position: relative;
 }
+.content_section .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  justify-content: space-between;
+}
 
 .current_series {
   color: white;
@@ -68,13 +74,6 @@ li {
   position: absolute;
   left: 210px;
   background-color: #3880f1;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3px;
-  justify-content: space-between;
 }
 
 .load_more {
@@ -92,11 +91,36 @@ li {
 .card {
   width: calc(16.6666666667% - 15px);
   margin: 30px 0;
-  background-color: white;
+  color: white;
 }
-
-h3 {
-  color: #6f716a;
+.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.card h3 {
   text-transform: uppercase;
   font-size: 12px;
+}
+
+.cta_section {
+  background-color: #3880f1;
+}
+.cta_section .container {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.cta_card {
+  display: flex;
+  align-items: center;
+}
+.cta_card img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.cta_text {
+  font-size: 12px;
+  color: white;
 }

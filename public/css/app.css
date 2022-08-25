@@ -177,3 +177,53 @@ nav li {
 .footer_bottom img {
   margin-right: 20px;
 }
+
+.single_product {
+  position: relative;
+  margin-top: 100px;
+}
+.single_product .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.single_product .poster {
+  width: 150px;
+  position: absolute;
+  top: -275px;
+}
+.single_product h1 {
+  text-transform: uppercase;
+}
+.single_product .main_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.single_product .comic_info {
+  width: 75%;
+  padding-right: 20px;
+}
+.single_product .ad {
+  width: 25%;
+}
+.single_product .ad img {
+  width: 100%;
+}
+.single_product .status {
+  background-color: #4fac52;
+  display: flex;
+  color: white;
+  margin: 20px 0;
+  border: 1px solid black;
+}
+.single_product .status_left {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 75%;
+}
+.single_product .status_right {
+  padding: 10px 20px;
+  width: 25%;
+  border-left: 1px solid black;
+}

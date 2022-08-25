@@ -1,0 +1,50 @@
+.single_product {
+    position: relative;
+    margin-top: 100px;
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .poster {
+        width: 150px;
+        position: absolute;
+        top: -275px;
+    }
+    h1 {
+        text-transform: uppercase;
+    }
+    .main_info {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+    .comic_info {
+        width: 75%;
+        padding-right: 20px;
+    }
+    .ad {
+        width: 25%;
+        img {
+            width: 100%;
+        }
+    }
+    .status {
+        background-color: #4fac52;
+        display: flex;
+        color: white;
+        margin: 20px 0;
+        border: 1px solid black;
+    }
+    .status_left {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        width: 75%;
+    }
+    .status_right {
+        padding: 10px 20px;
+        width: 25%;
+        border-left: 1px solid black;
+    }
+
+}

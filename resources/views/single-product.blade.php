@@ -28,6 +28,48 @@
                     <img src="{{ asset('img/adv.jpg') }}" alt="adv">
                 </div>
             </div>
+
+        </div>
+
+        <div class="more_info">
+            <div class="container">
+
+                <div class="talent">
+                    <h3>Talent</h3>
+                    <div class="art_written">
+                        <div class="art_written_left">Art by:</div>
+                        <div class="art_written_right">
+                            @foreach ($current_comic['artists'] as $artist)
+                            {{ $artist }},
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="art_written">
+                        <div class="art_written_left">Written by:</div>
+                        <div class="art_written_right">
+                            @foreach ($current_comic['writers'] as $writer)
+                            {{ $writer }},
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specs">
+                    <h3>Specs</h3>
+                    <div class="specs_details">
+                        <div class="specs_details_left">Series:</div>
+                        <div class="specs_details_right"><span>{{ $current_comic['series'] }}</span></div>
+                    </div>
+                    <div class="specs_details">
+                        <div class="specs_details_left">U.S. Price:</div>
+                        <div class="specs_details_right">{{ $current_comic['price'] }}</div>
+                    </div>
+                    <div class="specs_details">
+                        <div class="specs_details_left">On Sale Date:</div>
+                        <div class="specs_details_right">{{ $current_comic['sale_date'] }}</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>

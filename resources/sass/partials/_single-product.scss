@@ -46,5 +46,61 @@
         width: 25%;
         border-left: 1px solid black;
     }
+    .more_info {
+        background-color: #f6f6f6;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
 
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .talent {
+            width: 65%;
+            padding-right: 20px;
+        }
+        .specs {
+            width: 35%;
+            .specs_details {
+                padding: 5px 0;
+                border-bottom: 1px solid gray;
+                display: flex;
+                .specs_details_left {
+                    width: 30%;
+                }
+                .specs_details_right {
+                    width: 70%;
+                    span {
+                        color: $brand_primary_color;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        h3 {
+            padding: 20px 0;
+            border-bottom: 1px solid gray;
+        }
+
+        .art_written {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid gray;
+            padding: 5px 0;
+            .art_written_left {
+                width: 30%;
+            }
+            .art_written_right {
+                width: 70%;
+                color: $brand_primary_color;
+            }
+        }
+    }
 }

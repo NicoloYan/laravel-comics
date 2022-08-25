@@ -227,3 +227,57 @@ nav li {
   width: 25%;
   border-left: 1px solid black;
 }
+.single_product .more_info {
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+.single_product .more_info .container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.single_product .more_info .talent {
+  width: 65%;
+  padding-right: 20px;
+}
+.single_product .more_info .specs {
+  width: 35%;
+}
+.single_product .more_info .specs .specs_details {
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+.single_product .more_info .specs .specs_details .specs_details_left {
+  width: 30%;
+}
+.single_product .more_info .specs .specs_details .specs_details_right {
+  width: 70%;
+}
+.single_product .more_info .specs .specs_details .specs_details_right span {
+  color: #3880f1;
+  text-transform: uppercase;
+}
+.single_product .more_info h3 {
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+}
+.single_product .more_info .art_written {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+.single_product .more_info .art_written .art_written_left {
+  width: 30%;
+}
+.single_product .more_info .art_written .art_written_right {
+  width: 70%;
+  color: #3880f1;
+}

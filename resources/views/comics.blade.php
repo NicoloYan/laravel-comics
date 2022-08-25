@@ -7,8 +7,10 @@
 
             @foreach ($comics_array as $comic)
             <div class="card">
-                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
-                <h3>{{ $comic['series'] }}</h3>
+                <a href="{{ route('single_product', ['id' => $comic['id']]) }}">
+                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                    <h3>{{ $comic['series'] }}</h3>
+                </a>
             </div>
             @endforeach
 
